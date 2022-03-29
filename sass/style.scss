@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import 'bootstrap/bootstrap';
+* {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	height: 100vh;
+	background-color: #333;
+}
+
+.container {
+	height: 200px;
+	width: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: rgb(18, 118, 199);
+	border-radius: 30px;
+}
